@@ -1,0 +1,36 @@
+*{
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rodape {
+    background-color: #FFEFD5;
+    position: absolute;
+    top: 34.5em;
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    width: 25em;
+    height: 5em;
+    font-size: 16px;
+    padding: 5px;
+    resize: none;
+}
+
+.btn_textarea{
+    color: #9B98B1;
+}
